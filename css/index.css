@@ -2,10 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 }
-/*body{
-	width: 100%;
-	height: 100%;
-}*/
+
 #grid-container{
 	display: grid;
 	grid-template-columns: 5fr 95fr;
@@ -41,16 +38,7 @@
 
 }
 
-/*.footer {
-  position: fixed;
-  right: 0;
-  bottom: 5%;
-  width: 85%;
-  background-color: white;
-  color: black;
-  text-align: center;
-}
-*/
+
 .page_margin{
 	margin: 5% 0 0 7%;
 }
@@ -71,8 +59,12 @@ h4.content_store{
 	margin-top:35px; 
 }
 #content_store_text{
-	text-justify: auto;
+	text-align: justify;
 	margin: 15px 0 15px 0;
+	color: rgb(173, 173, 173);
+}
+#content_store_text a{
+	color: rgb(173, 173, 173);
 }
 .button {
   
@@ -122,8 +114,8 @@ h4.content_store{
 }
 .card_content{
 	font-size: 0.8em;
-	color: rgb(87, 89, 89);
-	justify-content: auto;
+	color: rgb(173, 173, 173);
+	text-align: justify;
 
 }
 .card_button {
@@ -148,7 +140,7 @@ h4.content_store{
 .footer{
 	text-align: center;
 	width: 100%;
-	color: rgb(87, 89, 89);
+	color: rgb(173, 173, 173);
 	margin-bottom: 3%;
 
 }
@@ -156,7 +148,7 @@ h4.content_store{
 	margin: 0 3%;
 } 
 .footer_links_div a{
-	color: rgb(87, 89, 89);
+	color: rgb(173, 173, 173);
 	margin: 1.5%;
 
 }
