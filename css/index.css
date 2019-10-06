@@ -93,10 +93,22 @@ h4.content_store{
   .card_grid{	
 	grid-template-columns: 1fr 1fr ;
 	}
+	.page{
+	grid-template-rows: 4fr 96fr;
+	}
+	.content_store{
+	width: 90%;
+	}
 }
 @media screen and (max-width: 452px) {
   .card_grid{
 	grid-template-columns: 1fr  ;
+	}
+	.page{
+	grid-template-rows: 2.5fr 97.5fr;
+	}
+	.content_store{
+	width: 100%;
 	}
 }
 
