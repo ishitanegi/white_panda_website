@@ -89,12 +89,12 @@ h4.content_store{
 
 
 }
-@media screen and (max-width: 666px) {
+@media (max-width: 666px) {
   .card_grid{	
 	grid-template-columns: 1fr 1fr ;
 	}
 }
-@media screen and (max-width: 452px) {
+@media (max-width: 452px) {
   .card_grid{
 	grid-template-columns: 1fr  ;
 	}
