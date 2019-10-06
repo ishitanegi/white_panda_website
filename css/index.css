@@ -90,7 +90,7 @@ h4.content_store{
 
 }
 @media screen and (max-width: 666px) {
-  .card_grid{	
+	.card_grid{	
 	grid-template-columns: 1fr 1fr ;
 	}
 	.page{
@@ -101,7 +101,7 @@ h4.content_store{
 	}
 }
 @media screen and (max-width: 452px) {
-  .card_grid{
+	.card_grid{
 	grid-template-columns: 1fr  ;
 	}
 	.page{
